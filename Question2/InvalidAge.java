@@ -1,12 +1,12 @@
 package Question2;
 
 public class InvalidAge extends Exception {
-    public InvalidAge(){
+    public InvalidAge() {
 
     }
-    public InvalidAge(String message){
+
+    public InvalidAge(String message) {
         super(message);
     }
-    
-    
+
 }
